@@ -1,1 +1,1 @@
-web: gunicorn grocerytracker.wsgi
+web: gunicorn timazingsite.wsgi

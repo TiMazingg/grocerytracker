@@ -1,5 +1,5 @@
 """
-Django settings for grocerytracker project on Heroku. For more info, see:
+Django settings for timazingsite project on Heroku. For more info, see:
 https://github.com/heroku/heroku-django-template
 
 For more information on this file, see
@@ -21,7 +21,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "h272niqkw7saz919p!&s7p_(bdy$1uxvexq%w66+x&!a4eaza#"
+SECRET_KEY = "yk5lo)##m%h@6@vl%2b+r$8zzar=vuf7pbcyittlvr+s13jcp-"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'grocerytracker.urls'
+ROOT_URLCONF = 'timazingsite.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'grocerytracker.wsgi.application'
+WSGI_APPLICATION = 'timazingsite.wsgi.application'
 
 
 # Database
