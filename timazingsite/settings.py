@@ -29,6 +29,7 @@ DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
+    'grocerytracker.apps.GrocerytrackerConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -57,7 +58,9 @@ ROOT_URLCONF = 'timazingsite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            PROJECT_ROOT + '/templates/',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

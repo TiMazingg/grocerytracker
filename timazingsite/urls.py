@@ -22,6 +22,6 @@ from . import views
 urlpatterns = [
     path('grocerytracker/', include('grocerytracker.urls')),
 
-    path('', views.index, name='index'),
+    path('', views.index, name='index'),  # Homepage
     path('admin/', admin.site.urls),
 ]
