@@ -48,6 +48,7 @@ def submit_product(request):
                     price=form.cleaned_data['price'],
                     store=form.cleaned_data['store']
                 )
+                
             return HttpResponseRedirect('displayproducts')
     # Else, create blank form
     else:
